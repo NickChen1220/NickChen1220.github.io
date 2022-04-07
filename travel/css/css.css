@@ -1,0 +1,427 @@
+@charset "UTF-8";
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/egg-shell.png");
+}
+
+h1 {
+    margin: 50px 0px 0px 0px;
+    color: #7AD5B4;
+    font-family: "微軟正黑體", "微軟正黑體", "標楷體";
+    font-weight: 800 !important;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    margin: 0px 0px 0px 0px;
+}
+
+.header>div {
+    background-image: url('../img/hbg.png');
+}
+
+.logo {
+    margin: 25px 0px -10px 0px;
+    left: 10%;
+    height: 100px;
+    background-image: url('../LOGO.png');
+    background-repeat: no-repeat;
+    background-size: 150px 100px;
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+
+.logo div {
+    float: left;
+}
+
+.logo a {
+    margin: 0px 0px 0px 120px;
+    color: #FFFFFF;
+    font-family: "微軟正黑體", "文鼎海報體", "標楷體";
+    line-height: 100px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#t1 {
+    font-size: 50px;
+}
+
+#t2 {
+    font-size: 40px;
+}
+
+#t3 {
+    font-size: 30px;
+}
+
+#t4 {
+    font-size: 20px;
+}
+
+.logo a:hover {
+    color: #AA0000;
+}
+
+.nav {
+    margin: 0px;
+    background: none;
+    border: none;
+}
+
+#menu {
+    margin: 40px 0px 0px 0px;
+}
+
+#menu li a {
+    font-size: 30px;
+    color: #FFFFFF !important;
+    margin: 0px 15px;
+    display: block;
+    transition: all 1s;
+}
+
+#menu li a p {
+    font-weight: bold !important;
+    font-family: "微軟正黑體", "文鼎海報體", "標楷體";
+}
+
+#menu>li>a:hover {
+    font-size: 35px;
+    color: #AA0000 !important;
+    background: #FFFFFF;
+}
+
+#menu li:hover>a {
+    color: #AA0000 !important;
+    background: none !important;
+}
+
+#menu li a {
+    padding: 0px;
+}
+
+#menu li:nth-child(4),
+#menu li:nth-child(2),
+#menu li:nth-child(3) {
+    display: block;
+    width: 170px;
+    height: 45px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+
+#menu li:nth-child(1) {
+    display: block;
+    width: 200px;
+    height: 45px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    margin: 0px -30px 0px 0px;
+}
+
+#menu li:nth-child(4) a,
+#menu li:nth-child(2) a,
+#menu li:nth-child(3) a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 180px;
+    height: 40px;
+    font-family: arial;
+    font-weight: bolder;
+    line-height: 40px;
+    transition: margin-top 0.5s;
+    -webkit-transition: margin-top 0.5s;
+}
+
+#menu li:nth-child(1) a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 180px;
+    height: 40px;
+    font-family: arial;
+    font-weight: bolder;
+    line-height: 40px;
+    transition: margin-top 0.5s;
+    -webkit-transition: margin-top 0.5s;
+}
+
+#menu>li:nth-child(1) a:hover,
+#menu>li:nth-child(2) a:hover,
+#menu>li:nth-child(3) a:hover,
+#menu>li:nth-child(4) a:hover {
+    margin-top: -45px;
+}
+
+.banner {
+    margin: 105px 0px 0px 0px;
+}
+
+
+.con1 {
+    text-align: center;
+    font-family: "微軟正黑體", "文鼎海報體", "標楷體";
+}
+
+.con2 {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.con3 {
+    margin: 40px 0px 0px 0px;
+}
+
+.con3title {
+    font-size: 20px;
+    color: #7AD5B4;
+    font-weight: bold;
+}
+
+.con3title>img {
+    margin: 0px 20px 0px 0px;
+}
+
+.con3content {
+    margin: 5px 0px 0px 70px;
+    font-size: 15px;
+    height: 80px;
+}
+
+.con4 {
+    padding: 400px 0px 0px 10px;
+    font-size: 50px;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.con5title {
+    color: #7AD5B4;
+    font-size: 30px;
+    font-family: "微軟正黑體", "微軟正黑體", "標楷體";
+    font-weight: 800 !important;
+    text-align: center;
+    border-bottom: 5px solid #7AD5B4;
+    border-radius: 5px;
+}
+
+.con5 {
+    font-size: 30px;
+    font-family: "微軟正黑體", "微軟正黑體", "標楷體";
+    text-align: center;
+}
+.con6{
+	margin: 0px 0px 20px 0px;
+}
+
+.con6title{
+	margin: 0px 0px 0px 0px;
+    color: #7AD5B4;
+    font-family: "微軟正黑體", "微軟正黑體", "標楷體";
+    font-size: 36px;
+    font-weight: 800 !important;
+}
+
+.con6content {
+    margin: 10px 0px 20px 30px;
+    font-size: 22px;
+    font-family: "微軟正黑體", "微軟正黑體", "標楷體";
+}
+
+.con7content {
+    margin: 5px 0px -40px 70px;
+    font-size: 15px;
+}
+
+.bg {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/egg-shell.png");
+    padding: 0px 0px 50px 0px;
+}
+
+.bg1 {
+    background-image: url('../img/bg2.jpg');
+    margin: 0px 0px;
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+}
+
+.bg3 {
+    background-image: url('../img/bg1.jpg');
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+}
+
+.bg4 {
+    width: 100%;
+    height: 50px;
+    background: #7AD5B4;
+}
+
+.bg5 {
+    background-image: url('../img/bg2.jpg');
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+}
+
+.map {
+    width: 100%;
+}
+
+.map>div {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/egg-shell.png");
+}
+
+.fbbig {
+    display: block;
+}
+
+.fbmin {
+    display: none;
+}
+
+.footer {
+    /* background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%); */
+    background-image: url('../img/hbg.png');
+    margin: 10px 0px 0px 0px;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-align: center;
+}
+
+#gotop {
+    display: block;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    /* background-color: #000; */
+    background-image: url('../img/hbg.png');
+    z-index: 999;
+    right: 15px;
+    bottom: 15px;
+    font-family: tahoma;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .header {
+        width: 100%;
+        position: inherit;
+        margin: 0px 0px 0px 0px;
+    }
+    .logo {
+        margin: 20px 0px 0px 20px;
+        left: 0%;
+    }
+    #t1 {
+        font-size: 40px;
+    }
+    #t2 {
+        font-size: 30px;
+    }
+    #t3 {
+        font-size: 20px;
+    }
+    #t4 {
+        font-size: 15px;
+    }
+    #menu {
+        margin: 0px;
+        padding: 10px;
+    }
+    #menu li {
+        margin: 5px;
+        text-align: center;
+        padding: 0px;
+        display: block;
+        clear: both;
+    }
+
+ #menu li:nth-child(4),
+#menu li:nth-child(2),
+#menu li:nth-child(3) {
+    display: block;
+    width: 170px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+
+#menu li:nth-child(1) {
+    display: block;
+    width: 200px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    margin: 0px -30px 0px 0px;
+}
+
+    .banner {
+        margin: -0px 0px 0px 0px;
+    }
+    .con3title>img {
+        margin: 0px 20px 0px 10px;
+    }
+    .con4 {
+        padding: 120px 0px 0px 10px;
+        font-size: 15px;
+        color: #FFFFFF;
+    }
+    .bg1 {
+        background-image: url('../img/bg2.jpg');
+        background-size: cover;
+        height: 250px;
+        width: 100%;
+    }
+    .bg3 {
+        background-image: url('../img/bg1.jpg');
+        background-size: cover;
+        height: 250px;
+        width: 100%;
+    }
+    .bg5 {
+        background-image: url('../img/bg3.jpg');
+        height: 250px;
+        width: 100%;
+        background-size: cover;
+    }
+    .con5title {
+        margin: 30px 0px 0px 0px;
+    }
+    .con7content {
+        margin: 5px 0px -40px 80px;
+        height: 60px;
+    }
+    .fbbig {
+        display: none;
+    }
+    .fbmin {
+        display: block;
+    }
+    .footer {
+        margin: 10px 0px 0px 0px;
+    }
+}
