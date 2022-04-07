@@ -1,0 +1,21 @@
+/* CSS Document */
+body{
+	background: url(images/bg.jpg) repeat;
+}
+.box{
+			float:left;
+			width:220px;
+			padding:5px;
+			margin:10px;
+			background:#FFCC99;
+	}
+.box img{
+		width:100%;
+		display:block;
+	}
+.box:hover{
+	background: #F00;
+	z-index:1;
+	-webkit-transform: scale(1.2,1.2) ;
+	-webkit-transition:-webkit-transform 0.4s linear;
+}
